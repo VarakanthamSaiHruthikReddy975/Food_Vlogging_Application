@@ -1,0 +1,97 @@
+
+# ============ Virtual Environment ============
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============ Environment Variables (SECRETS!) ============
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============ Docker (Keep compose, ignore overrides with secrets) ============
+docker-compose.override.yml
+compose.override.yaml
+compose.override.yml
+
+# ============ Database ============
+*.db
+*.sqlite3
+*.sqlite
+*.sql
+
+# ============ IDE / Editor ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============ Logs ============
+*.log
+logs/
+*.log.*
+
+# ============ Testing ============
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ============ Type Checking ============
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============ Jupyter Notebooks ============
+.ipynb_checkpoints/
+*.ipynb
+
+# ============ Documentation ============
+docs/_build/
+site/
+
+# ============ Backup Files ============
+*.bak
+*.backup
+*.tmp
+*~
+
+# ============ OS Files ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============ Sensitive Data ============
+secrets/
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+id_rsa*
