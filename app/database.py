@@ -24,10 +24,10 @@ Base = declarative_base()
 
 # main function to get db session
 def get_db():
-    @app.get("/users")
-    def get_users(db: Session = Depends(get_db)):
-        users = db.query(User).all()
-        return users
+    # @app.get("/users")
+    # def get_users(db: Session = Depends(get_db)):
+    #     users = db.query(User).all()
+    #     return users
     
     db = SessionLocal()
     try:
